@@ -1,0 +1,20 @@
+# Ignore datasets (we don't push raw CSVs to GitHub)
+datasets/
+docs/
+mssql_data/
+script/
+tests/
+# Python or temp files
+__pycache__/
+*.pyc
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs or temp outputs
+*.log
+*.tmp
+
+# Docker-related
+*.env
